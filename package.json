@@ -1,0 +1,13 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "deploy": "gh-pages -t -d public",
+    "dev": "tailwindcss -i ./src/style.css -o ./public/style/main.css --watch",
+    "build": "tailwindcss -i ./src/style.css -o ./public/style/main.css --minify"
+  },
+  "devDependencies": {
+    "gh-pages": "latest"
+  }
+}
